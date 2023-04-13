@@ -1,0 +1,22 @@
+{
+  "name": "inception",
+  "version": "1.0.0",
+  "description": "learning react",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princekumarpaswan/inception-Namaste-React.git"
+  },
+  "author": "prince",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/princekumarpaswan/inception-Namaste-React/issues"
+  },
+  "homepage": "https://github.com/princekumarpaswan/inception-Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
