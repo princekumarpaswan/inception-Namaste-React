@@ -11,4 +11,11 @@
 - Minification
 - Building
 - Compressing
-- Consistent Hasing 
+- Consistent Hashing
+- Code Splitting
+- Differential bundling - to support older browsers
+- Disagonastic
+- Error Handling
+- HTTPs
+- Tree Shaking -remove unused code 
+- Differnt Dev and production bundel 
