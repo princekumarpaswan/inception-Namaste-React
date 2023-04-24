@@ -2929,37 +2929,32 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-const parent = /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
-    id: "parent"
-}, [
-    /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
-        id: "child"
-    }, [
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
-            id: "headd"
-        }, "I am H1"),
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {
-            id: "sib"
-        }, "I am H2")
-    ]),
-    /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
-        id: "child2"
-    }, [
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
-            id: "headd"
-        }, "I am H1"),
-        /*#__PURE__*/ (0, _reactDefault.default).createElement("h2", {
-            id: "sib"
-        }, "I am H2")
-    ])
-]);
-// const heading = React.createElement(
-//     "h1",
-//     { id: "heading", class: "card" },
-//     "Hello Master Prince!"
-// );
+// ep 3 start here
+// React Element
+const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
+    id: "heading"
+}, "Namaste React");
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(parent); // basic react ends here 
+root.render(heading); // const parent = React.createElement(
+ //     "div",
+ //     { id: "parent" },
+ //     [React.createElement("div", { id: "child" }, [
+ //         React.createElement("h1", { id: "headd" }, "I am H1"),
+ //         React.createElement("h2", { id: "sib" }, "I am H2"),
+ //     ]), React.createElement("div", { id: "child2" },
+ //         [
+ //             React.createElement("h1", { id: "headd" }, "I am H1"),
+ //             React.createElement("h2", { id: "sib" }, "I am H2"),
+ //         ])]
+ // );
+ // // const heading = React.createElement(
+ // //     "h1",
+ // //     { id: "heading", class: "card" },
+ // //     "Hello Master Prince!"
+ // // );
+ // const root = ReactDOM.createRoot(document.getElementById("root"));
+ // root.render(parent);
+ // // basic react ends here 
 
   $parcel$ReactRefreshHelpers$6024.postlude(module);
 } finally {
