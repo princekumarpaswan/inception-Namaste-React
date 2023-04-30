@@ -16,10 +16,33 @@ const heading = React.createElement("h1", { id: "heading" }, "Namaste React");
 // JAX is transpiled byparcel using bable before it goes to JS engine 
 
 
+const Head = () => {
+    return (
+        <>
+
+            <>
+                <h1>
+                    Prince
+                </h1>
+                <h1>
+                    Kumar
+                </h1>
+            </>
+
+
+            <div>
+                <h1>
+                    Paswan
+                </h1>
+            </div>
+        </>
+    )
+}
+
 const jxsHeading = <h1>Namaste React using JSX</h1>
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(jxsHeading);
+root.render(<Head />);
 
 
 

@@ -2939,15 +2939,57 @@ const heading = /*#__PURE__*/ (0, _reactDefault.default).createElement("h1", {
 // JSX is html like syntex
 // JSX is not a valid syntex 
 // JAX is transpiled byparcel using bable before it goes to JS engine 
+const Head = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "Prince"
+                    }, void 0, false, {
+                        fileName: "app.js",
+                        lineNumber: 24,
+                        columnNumber: 17
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        children: "Kumar"
+                    }, void 0, false, {
+                        fileName: "app.js",
+                        lineNumber: 27,
+                        columnNumber: 17
+                    }, undefined)
+                ]
+            }, void 0, true),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    children: "Paswan"
+                }, void 0, false, {
+                    fileName: "app.js",
+                    lineNumber: 34,
+                    columnNumber: 17
+                }, undefined)
+            }, void 0, false, {
+                fileName: "app.js",
+                lineNumber: 33,
+                columnNumber: 13
+            }, undefined)
+        ]
+    }, void 0, true);
+};
+_c = Head;
 const jxsHeading = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
     children: "Namaste React using JSX"
 }, void 0, false, {
     fileName: "app.js",
-    lineNumber: 19,
+    lineNumber: 42,
     columnNumber: 20
 }, undefined);
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
-root.render(jxsHeading); // const parent = React.createElement(
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Head, {}, void 0, false, {
+    fileName: "app.js",
+    lineNumber: 45,
+    columnNumber: 13
+}, undefined)); // const parent = React.createElement(
  //     "div",
  //     { id: "parent" },
  //     [React.createElement("div", { id: "child" }, [
@@ -2967,6 +3009,8 @@ root.render(jxsHeading); // const parent = React.createElement(
  // const root = ReactDOM.createRoot(document.getElementById("root"));
  // root.render(parent);
  // // basic react ends here 
+var _c;
+$RefreshReg$(_c, "Head");
 
   $parcel$ReactRefreshHelpers$6024.postlude(module);
 } finally {
