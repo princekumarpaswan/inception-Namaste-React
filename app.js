@@ -12,6 +12,11 @@ const heading = React.createElement("h1", { id: "heading" }, "Namaste React");
 
 // JSX is html like syntex
 
+
+
+
+
+
 // JSX is not a valid syntex 
 // JAX is transpiled byparcel using bable before it goes to JS engine 
 
